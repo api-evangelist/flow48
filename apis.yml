@@ -1,8 +1,29 @@
 aid: flow48
 name: Flow48
-description: Flow48 is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Flow48 is an SME financing platform founded in March 2022 and backed by
+  Speedinvest that provides non-dilutive, collateral-free capital to small and
+  medium businesses across the GCC and wider MENA region, with a focus on the
+  e-commerce and food & beverage sectors. Its two core products are
+  revenue-based financing, which converts a business's future revenues into
+  upfront capital repaid as a share of sales, and invoice financing, which
+  accelerates cash locked in unpaid invoices. Flow48 markets funding decisions
+  and disbursement within 24 to 48 hours with flexible repayment and no equity
+  surrender. The company operates a self-service borrower onboarding portal but
+  does not currently publish a public developer program, API reference, or SDKs.
 url: https://raw.githubusercontent.com/api-evangelist/flow48/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://flow48.com/favicon.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +32,38 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Fintech
+- Financial Services
+- Embedded Finance
+- SME Lending
+- Revenue-Based Financing
+- Invoice Financing
+- MENA
+- Speedinvest Portfolio
 apis: []
+common:
+- type: Website
+  url: https://flow48.com
+- type: SignUp
+  url: https://ssob.flow48.com
+- type: Support
+  url: https://flow48.com/contact
+- type: TermsOfService
+  url: https://flow48.com/terms
+- type: PrivacyPolicy
+  url: https://flow48.com/privacy
+- type: DomainSecurity
+  url: security/flow48-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
