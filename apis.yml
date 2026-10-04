@@ -47,7 +47,7 @@ modified: '2026-07-19'
 tags:
 - Company
 - Fintech
-- Financial-Services
+- Financial Services
 - Embedded Finance
 - SME Lending
 - Revenue-Based Financing
@@ -64,6 +64,7 @@ tags_raw:
 - Invoice Financing
 - MENA
 - Speedinvest Portfolio
+- Financial-Services
 apis: []
 common:
 - type: Website
